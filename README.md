@@ -7,4 +7,4 @@ This is a dataset from https://www.kaggle.com/datasets/arianazmoudeh/airbnbopend
 It details listings for AirBnB rentals in NYC
 
 Objective:
-This is primarily to perfrom EDA (Exploratory Data Analysis) and to run some visualizations as a refresher to myself. I will try to answer some questions (see below) and write about them.
+This is primarily to perform EDA (Exploratory Data Analysis) and to run some visualizations as a refresher to myself. I will try to answer some questions (see below) and write about them.
