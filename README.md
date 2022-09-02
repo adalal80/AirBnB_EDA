@@ -49,3 +49,5 @@ The data consists of NYC AirBnB listings, with the following columns:
 * Correlation between Construction year and price?
 
 
+### Please refer to the Jupyter Notebook for analysis and results.
+
