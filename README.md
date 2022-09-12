@@ -40,7 +40,11 @@ The data consists of NYC AirBnB listings, with the following columns:
  
 
 
-### Questions that will be asked
+
+
+### Analysis
+The first step is to perform data cleaning as there were missing values and non-uniqueness and to investigate distribution of fields. For example, the column neighborhood group had nulls, and so I filled them in depending on what neighbourhood value it was (i.e. if neighbourhood was Williamsburg and neighbourhood group was missing, I filled it in as Brooklyn). I also removed columns where there was only 1 unique value (country, country code, license columns). The following are questions that will be asked (see jupyter notebook for analysis and findings):
+
 * What are number of listings by Neighborhood Group/Neighborhood
 * What about by Room Type
 * Average Price by Room Type
@@ -48,6 +52,5 @@ The data consists of NYC AirBnB listings, with the following columns:
 * Correlation bw # of listings/review/rating?
 * Correlation between Construction year and price?
 
-
-### Please refer to the Jupyter Notebook for analysis and results.
-
+### Conlcusion
+Overall, this was just an exercise to get my feet wet again, and I chose this dataset as I am very familiar with AirBnB model since I used to work for a short term rental property management company that leveraged AirBnB to rent client's homes. The data, especially price, was not informative, as it was the listing price which does not equate to actual transaction price. Given that the average price was around 620 regardless of neighbourhood and room type was a dead giveaway. Normally Manhattan is the priciest as that is where tourists want to stay and private home/apt is higher than private room and shared room. The data did not suggest that, instead it showed roughly the same price regardless of neighbourhood or room type. 
